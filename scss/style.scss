@@ -90,12 +90,13 @@ body{
 }
 
 @media (max-width: 48rem){
-  .main{
-    display: flex;
-    flex-direction: column;
-    padding: 1.25rem;
-    margin-top: 13.75rem;
-    margin-bottom: 13.75rem;
+  .main {
+    display:grid;
+    grid-template-areas: 'first'
+    'second'
+    'third';
+    padding: 2.5rem;
+    height: auto;
   }
   .monthly{
     border-bottom-left-radius: 0;
