@@ -3,13 +3,16 @@
 
 @import 'base';
 
+body{
+  margin: 0 auto;
+}
+
 .main{
   display: grid;
   grid-template-areas: 'first first'
   'second third';
   justify-content: center;
   align-content: center;
-  margin: 0 auto;
   height: 100vh;
 }
 
@@ -29,7 +32,7 @@
 
   p{
     color: $grayish-blue;
-    max-width: 40.625rem;
+    max-width: 35.625rem;
   }
 }
 

@@ -40,12 +40,14 @@ ul, li {
 .why {
   border-bottom-right-radius: 0.5rem; }
 
+body {
+  margin: 0 auto; }
+
 .main {
   display: grid;
   grid-template-areas: 'first first' 'second third';
   justify-content: center;
   align-content: center;
-  margin: 0 auto;
   height: 100vh; }
 
 .first {
@@ -59,7 +61,7 @@ ul, li {
     margin-bottom: .5rem; }
   .first p {
     color: #98a6bd;
-    max-width: 40.625rem; }
+    max-width: 35.625rem; }
 
 .monthly {
   grid-area: second;
