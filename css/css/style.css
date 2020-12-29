@@ -90,7 +90,7 @@ body {
     box-shadow: rgba(149, 157, 165, 0.5) 0rem 0.5rem 1.5rem; }
 
 .why {
-  background-color: rgba(42, 178, 175, 0.6);
+  background-color: rgba(42, 178, 175, 0.8);
   grid-area: third; }
   .why h2 {
     color: #fff;
