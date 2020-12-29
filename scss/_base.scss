@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+$cyan: hsl(179, 62%, 43%);
+$bright-yellow: hsl(71, 73%, 54%);
+$light-gray: hsl(204, 43%, 93%);
+$grayish-blue: hsl(218, 22%, 67%);
+$main-font: 'Karla', sans-serif;
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-size: 1rem;
+  font-family: $main-font;
+  max-width: 90rem;
+  background-color: $light-gray;
+}
+
+h1, h2 {
+  font-family: $main-font;
+  line-height: 1.5;
+  font-weight: 700;
+}
+
+p { 
+ font-family: $main-font;
+ line-height: 1.2;
+ font-weight: 400;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul, li {
+  list-style: none;
+}
+
+.card{
+  padding: 2rem;
+  box-shadow: rgba(149,157,165,0.2) 0px 8px 24px;
+  
+}
+
+.top  {
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+}
+
+.monthly{
+  border-bottom-left-radius: 0.5rem;
+}
+
+.why{
+    border-bottom-right-radius: 0.5rem;
+}

@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  font-size: 1rem;
+  font-family: "Karla", sans-serif;
+  max-width: 90rem;
+  background-color: #e5eff5; }
+
+h1, h2 {
+  font-family: "Karla", sans-serif;
+  line-height: 1.5;
+  font-weight: 700; }
+
+p {
+  font-family: "Karla", sans-serif;
+  line-height: 1.2;
+  font-weight: 400; }
+
+a {
+  text-decoration: none; }
+
+ul, li {
+  list-style: none; }
+
+.card {
+  padding: 2rem;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px; }
+
+.top {
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem; }
+
+.monthly {
+  border-bottom-left-radius: 0.5rem; }
+
+.why {
+  border-bottom-right-radius: 0.5rem; }
+
+.main {
+  display: grid;
+  grid-template-areas: 'first first' 'second third';
+  justify-content: center;
+  align-content: center;
+  margin: 0 auto;
+  height: 100vh; }
+
+.first {
+  background-color: #fff;
+  grid-area: first; }
+  .first h1 {
+    color: #2ab2af;
+    margin-bottom: 1rem; }
+  .first h2 {
+    color: #c0df34;
+    margin-bottom: .5rem; }
+  .first p {
+    color: #98a6bd;
+    max-width: 40.625rem; }
+
+.monthly {
+  grid-area: second;
+  background-color: #2ab2af; }
+  .monthly h2 {
+    margin-bottom: .7rem;
+    color: #fff; }
+  .monthly .per {
+    color: #e5eff5;
+    font-weight: 400;
+    font-size: 1rem;
+    margin-left: .5rem; }
+  .monthly p {
+    color: #e5eff5;
+    font-weight: 400;
+    margin-bottom: 2rem; }
+  .monthly a {
+    padding: .9rem;
+    display: block;
+    color: #fff;
+    margin: 0 auto;
+    width: 100%;
+    border-radius: .7rem;
+    text-align: center;
+    background-color: #c0df34;
+    box-shadow: rgba(149, 157, 165, 0.5) 0rem 0.5rem 1.5rem; }
+
+.why {
+  background-color: rgba(42, 178, 175, 0.6);
+  grid-area: third; }
+  .why h2 {
+    color: #fff;
+    margin-bottom: .7rem; }
+  .why li {
+    margin-bottom: .2rem;
+    color: #e5eff5;
+    cursor: pointer; }
+
+@media (max-width: 48rem) {
+  .main {
+    display: flex;
+    flex-direction: column;
+    padding: 1.25rem;
+    margin-top: 13.75rem;
+    margin-bottom: 13.75rem; }
+  .monthly {
+    border-bottom-left-radius: 0; }
+  .why {
+    border-bottom-left-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem; } }
+
+.attribution {
+  font-size: 1rem;
+  margin-top: -.9rem;
+  margin-bottom: .9rem;
+  text-align: center; }
+  .attribution .attribution a {
+    color: #3e52a3; }
